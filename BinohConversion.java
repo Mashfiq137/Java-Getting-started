@@ -6,7 +6,7 @@ public class BinohConversion {
 
 	public static void main(String [] args) {
 		
-				int dec = 15 ;
+				int dec = 15 ; //Or take an input from the user.
 				
 				//Decimal to binary : 
 				
@@ -25,7 +25,6 @@ public class BinohConversion {
 				String hex = Integer.toHexString(dec);
 				
 				System.out.println(hex);
-				
 				
 				
 	}
