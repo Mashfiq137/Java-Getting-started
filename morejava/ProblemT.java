@@ -43,7 +43,7 @@ public class ProblemT {
 		h=h%7;
 		
 		
-		if(h==0)      System.out.println("Day of the week is Saturday");
+		     if(h==0) System.out.println("Day of the week is Saturday");
 		else if(h==1) System.out.println("Day of the week is Sunday");
 		else if(h==2) System.out.println("Day of the week is Monday");
 		else if(h==3) System.out.println("Day of the week is Tuesday");
