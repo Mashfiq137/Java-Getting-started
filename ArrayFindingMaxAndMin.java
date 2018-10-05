@@ -8,7 +8,7 @@ public class ArrayFindingMaxAndMin {
 
 		Scanner input = new Scanner(System.in);
 
-		double[] number = new double[5];
+		double[] number = new double[5] ;
 
 		double sum = 0;
 
