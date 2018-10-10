@@ -36,7 +36,7 @@ public class Problem1 {
 		
 		int mod = x % y ;
 		
-		System.out.println(x+" % "+y+" = "+mod);
+		System.out.println(x+" mod "+y+" = "+mod);
 				
 	}
 
