@@ -2,7 +2,7 @@ package beginnerJava;
 
 import java.util.Scanner;
 
-public class ArmstrongOrNot {
+public class ArmstrongOrNot{
 
 	public static void main(String[] args) {
 		
