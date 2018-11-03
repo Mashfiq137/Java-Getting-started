@@ -1,5 +1,4 @@
 package morejava;
-
 import java.util.Scanner;
 
 public class ArraySum {
