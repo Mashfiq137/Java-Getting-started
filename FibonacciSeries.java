@@ -1,39 +1,31 @@
-package beginnerJava;
-
 import java.util.Scanner;
-
 public class FibonacciSeries {
 
 	public static void main(String[] args) {
+		System.out.println("Enter n: ");
 		
-					Scanner input=new Scanner (System.in);
-					
-					System.out.println("Enter number of terms : ");
-					
-					int n = input.nextInt();
-					
-					int first=0;
-					
-					int second=1;
-					
-					int fibo;
-					
-					System.out.printf(first+" "+ second);
-					
-					for(int i = 3; i <=n ;i++ ) {
-						
-							  fibo = first + second;
-							  
-							  System.out.print(" "+fibo);
-							  
-							  first=second;
-							  
-							  second = fibo;
-					
-					}
+		Scanner var = new Scanner(System.in);
 		
+		int x = var.nextInt();
+		
+		
+		int fib0=0;
+		int fib1=1;
+		int fibo;
+		
+		if(x>=1)
+			System.out.print(fib0+" ");
+		if(x>=2)
+		System.out.print(fib1+" ");
+		int i=2;
+		while(i<x) {
+			fibo=fib0+fib1;
+			System.out.print(fibo+" ");
+			fib0=fib1;
+			fib1=fibo;
+			i++;
+		}
 		
 	}
-	
 	
 }
