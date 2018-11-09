@@ -1,6 +1,5 @@
 package morejava;
 import java.util.Scanner;
-
 public class ArraySum {
 
 	static int sum = 0;
