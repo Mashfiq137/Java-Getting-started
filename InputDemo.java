@@ -1,5 +1,4 @@
 package beginnerJava;
-
 import java.util.Scanner; 
 public class InputDemo {
 
