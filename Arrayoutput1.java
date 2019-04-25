@@ -1,7 +1,5 @@
 package beginnerJava;
-
 import java.util.Scanner;
-
 public class Arrayoutput1 {
 
 	public static void main(String[] args) {
